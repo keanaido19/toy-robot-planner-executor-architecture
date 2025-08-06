@@ -17,3 +17,6 @@ class Location:
 
     def set_y(self, y: int) -> None:
         self.y = y
+
+    def __eq__(self, other) -> bool:
+        return self.x == other.x and self.y == other.y
