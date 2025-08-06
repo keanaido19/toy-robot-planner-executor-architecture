@@ -39,5 +39,5 @@ class Environment:
             elif self.direction == Direction.WEST:
                 self.location.set_x(self.location.get_x() - 1)
 
-    def get_state(self) -> tuple[tuple[int, int], Direction]:
-        return (self.location.get_x(), self.location.get_y()), self.direction
+    def get_state(self) -> tuple[Location, Direction]:
+        return self.location, self.direction
