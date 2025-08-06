@@ -4,4 +4,4 @@ class Direction(Enum):
     NORTH = "NORTH",
     EAST = "EAST",
     SOUTH = "SOUTH",
-    WEST = "WEST"
+    WEST = "WEST",
