@@ -2,9 +2,9 @@ class Location:
     x: int
     y: int
 
-    def __init__(self):
-        self.x = 0
-        self.y = 0
+    def __init__(self, x: int = 0, y: int = 0):
+        self.x = x
+        self.y = y
 
     def get_x(self) -> int:
         return self.x
